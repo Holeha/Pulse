@@ -8,6 +8,11 @@
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
+    transition: 0.5s all;
+    &:hover {
+        box-shadow: 3px 3px 20px #c70101;
+        border: none;
+    }
     &__main {
         margin-top: 67px;
         width: 300px;

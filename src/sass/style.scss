@@ -2,9 +2,6 @@
 @import 'base/mixins';
 @import 'base/animations';
 @import 'base/slick';
-@import 'base/bootstrap-grid';
-@import 'base/bootstrap-reboot';
-@import 'base/fonts';
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
@@ -18,6 +15,10 @@
 @import 'blocks/reviews';
 @import 'blocks/modal';
 @import 'blocks/pageup';
+@import 'libs/bootstrap-grid';
+@import 'libs/bootstrap-reboot';
+@import 'libs/font';
+@import 'base/media';
 *{
     font-family: 'Museo Sans Cyrl', sans-serif;
 }

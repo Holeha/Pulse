@@ -20,5 +20,8 @@
     .slick-next {
         left: auto;
         right: -66px;
-    } 
+    }
+    &__img img {
+        width: 100%;
+    }
 }
